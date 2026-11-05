@@ -4,7 +4,7 @@
   "tags": ["weather", "ws3000"],
   "timezone": "browser",
   "schemaVersion": 41,
-  "version": 1,
+  "version": 2,
   "refresh": "30s",
   "time": { "from": "now-24h", "to": "now" },
   "panels": [
@@ -27,7 +27,13 @@
           "color": { "mode": "palette-classic" },
           "custom": { "drawStyle": "line", "lineWidth": 2, "showPoints": "never", "spanNulls": false }
         },
-        "overrides": []
+        "overrides": [
+          { "matcher": { "id": "byName", "options": "Channel 1" }, "properties": [{ "id": "displayName", "value": "living room" }] },
+          { "matcher": { "id": "byName", "options": "Channel 2" }, "properties": [{ "id": "displayName", "value": "yellow room" }] },
+          { "matcher": { "id": "byName", "options": "Channel 3" }, "properties": [{ "id": "displayName", "value": "master room" }] },
+          { "matcher": { "id": "byName", "options": "Channel 4" }, "properties": [{ "id": "displayName", "value": "Blue room" }] },
+          { "matcher": { "id": "byName", "options": "Channel 5" }, "properties": [{ "id": "displayName", "value": "Outside" }] }
+        ]
       },
       "options": {
         "legend": { "displayMode": "list", "placement": "bottom", "showLegend": true },
@@ -55,7 +61,13 @@
           "color": { "mode": "palette-classic" },
           "custom": { "drawStyle": "line", "lineWidth": 2, "showPoints": "never", "spanNulls": false }
         },
-        "overrides": []
+        "overrides": [
+          { "matcher": { "id": "byName", "options": "Channel 1" }, "properties": [{ "id": "displayName", "value": "living room" }] },
+          { "matcher": { "id": "byName", "options": "Channel 2" }, "properties": [{ "id": "displayName", "value": "yellow room" }] },
+          { "matcher": { "id": "byName", "options": "Channel 3" }, "properties": [{ "id": "displayName", "value": "master room" }] },
+          { "matcher": { "id": "byName", "options": "Channel 4" }, "properties": [{ "id": "displayName", "value": "Blue room" }] },
+          { "matcher": { "id": "byName", "options": "Channel 5" }, "properties": [{ "id": "displayName", "value": "Outside" }] }
+        ]
       },
       "options": {
         "legend": { "displayMode": "list", "placement": "bottom", "showLegend": true },

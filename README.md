@@ -2,7 +2,9 @@
 
 Graph temperature and relative humidity from a MISOL HP3001 / WS-3000 USB
 weather station. The station can report up to eight channels; this dashboard
-will show your five populated channels automatically.
+will show your five populated channels automatically. The graphs label them
+**living room**, **yellow room**, **master room**, **Blue room**, and **Outside**
+for channels 1–5 respectively.
 
 ```mermaid
 flowchart LR
