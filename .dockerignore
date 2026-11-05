@@ -1,0 +1,10 @@
+.git
+.venv
+.env
+__pycache__
+*.pyc
+README.md
+grafana
+mosquitto
+prometheus
+exporter/test_*.py
