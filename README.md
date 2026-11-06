@@ -8,6 +8,9 @@ for channels 1–5 respectively.
 
 The dashboard shows indoor readings (channels 1–4) and Outside readings
 (channel 5) in separate temperature and relative humidity graphs.
+Each graph uses a five-minute moving average to soften one-reading jumps.
+Grafana refreshes every minute, matching the station's polling interval;
+the raw readings remain in Prometheus.
 
 ```mermaid
 flowchart LR
