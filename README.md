@@ -6,9 +6,8 @@ will show your five populated channels automatically. The graphs label them
 **living room**, **yellow room**, **master room**, **Blue room**, and **Outside**
 for channels 1–5 respectively.
 
-The dashboard shows indoor temperatures (channels 1–4) and Outside temperature
-(channel 5) in separate graphs. Relative humidity remains on one graph for all
-five rooms.
+The dashboard shows indoor readings (channels 1–4) and Outside readings
+(channel 5) in separate temperature and relative humidity graphs.
 
 ```mermaid
 flowchart LR
