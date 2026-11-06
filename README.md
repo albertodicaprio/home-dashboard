@@ -6,6 +6,10 @@ will show your five populated channels automatically. The graphs label them
 **living room**, **yellow room**, **master room**, **Blue room**, and **Outside**
 for channels 1–5 respectively.
 
+The dashboard shows indoor temperatures (channels 1–4) and Outside temperature
+(channel 5) in separate graphs. Relative humidity remains on one graph for all
+five rooms.
+
 ```mermaid
 flowchart LR
     A[HP3001 USB station] --> B[ws3000-mqtt Python publisher]
